@@ -116,7 +116,7 @@ function init() {
             const newReadMe = generateReadMe(answers);
 
             // TODO: Create a function to write README file
-            fs.writeFile("./utils/readMe.md", newReadMe, (err) => {
+            fs.writeFile("./newReadMe.md", newReadMe, (err) => {
                 if (err) throw (err);
                 console.log('ReadMe file generated!')
             })
