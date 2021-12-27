@@ -7,7 +7,7 @@ const generateReadMe = require("./utils/generateMarkdown");
 const questions = [{
             type: "input",
             name: "title",
-            message: "Enter the title of your project (Required)",
+            message: "Enter the title of your project (Required):",
             validate: (titleInput) => {
                 if (titleInput) {
                     return true;
@@ -20,7 +20,7 @@ const questions = [{
         {
             type: "input",
             name: "description",
-            message: "Enter the description of your project (Required)",
+            message: "Enter the description of your project (Required):",
             validate: (descriptionInput) => {
                 if (descriptionInput) {
                     return true;
@@ -33,22 +33,22 @@ const questions = [{
         {
             type: "input",
             name: "install",
-            message: "Enter the installation steps for your project",
+            message: "Enter the installation steps for your project:",
         },
         {
             type: "input",
             name: "usage",
-            message: "Provide instructions and examples for use",
+            message: "Provide instructions and examples for use:",
         },
         {
             type: "input",
             name: "credits",
-            message: "List the collaborators and links to their GitHub profiles",
+            message: "List the collaborators and links to their GitHub profiles:",
         },
         {
             type: "list",
             name: "license",
-            message: "Select the license you'd like to enter",
+            message: "Select the license you'd like to enter:",
             choices: ['MIT', 'GNU', 'Apache']
         },
         // {
@@ -59,17 +59,17 @@ const questions = [{
         {
             type: "input",
             name: "features",
-            message: "Enter the features for this project, such as extensions",
+            message: "Enter the features for this project, such as extensions:",
         },
         {
             type: "input",
             name: "contributing",
-            message: "How should other developers contribute",
+            message: "How should other developers contribute:",
         },
         {
             type: "input",
             name: "gitHubName",
-            message: "Enter your GitHub username (Required)",
+            message: "Enter your GitHub username (Required):",
             validate: (gitHubNameInput) => {
                 if (gitHubNameInput) {
                     return true;
@@ -82,7 +82,7 @@ const questions = [{
         {
             type: "input",
             name: "gitHubLink",
-            message: "Enter the link to your GitHub profile (Required)",
+            message: "Enter the link to your GitHub profile (Required):",
             validate: (gitHubLinkInput) => {
                 if (gitHubLinkInput) {
                     return true;
