@@ -26,5 +26,3 @@
 ## For Additonal Questons
 
 * Link to GitHub profile: https://github.com/Kdash201
-
-
