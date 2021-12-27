@@ -113,9 +113,7 @@ const questions = [{
 function init() {
     inquirer.prompt(questions)
         .then((answers) => {
-            console.log(answers)
             const newReadMe = generateReadMe(answers);
-            console.log(newReadMe)
 
             // TODO: Create a function to write README file
             fs.writeFile("./utils/readMe.md", newReadMe, (err) => {
