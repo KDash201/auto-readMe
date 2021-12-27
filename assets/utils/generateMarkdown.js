@@ -28,10 +28,10 @@ function generateMarkdown(answers) {
 
 ## Table of Contents
 
-* [Installation] (#Installation)
-* [Usage](#Usage)
-* [Contributing](#Contributing)
-* [License Info](#LicenseInfo)
+* [Installation]
+* [Usage]
+* [Contributing]
+* [License Info]
 
 ## Installation
 * ${answers.install}
