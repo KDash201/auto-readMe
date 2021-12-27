@@ -2,14 +2,14 @@
 
 ## Description
 
-* This project allows for a developer to quickly formulate a readme file for their project.
+* This project allows for a developer to quickly formulate a readme file for their project
 
 ## Table of Contents
 
-* [Installation] (#Installation)
-* [Usage](#Usage)
-* [Contributing](#Contributing)
-* [License Info](#LicenseInfo)
+* [Installation]
+* [Usage]
+* [Contributing]
+* [License Info]
 
 ## Installation
 * To install, clone the repo and then run "npm install inquire" in your terminal.
@@ -20,9 +20,15 @@
 ## Credits
 * Adam Howard https://github.com/Ahoward21
 
-## Screenshot
-![picture of auto readme app](assets\images\Auto-ReadMe.png)
+## License Info
+
+
+## Contributing
+* 
+
 
 ## For Additonal Questons
 
 * Link to GitHub profile: https://github.com/Kdash201
+
+

@@ -23,6 +23,10 @@
 ## Screenshot
 ![picture of auto readme app](assets\images\Auto-ReadMe.png)
 
+## Demo
+
+https://watch.screencastify.com/v/t69txLOklS0YFKOhNPJM
+
 ## For Additonal Questons
 
 * Link to GitHub profile: https://github.com/Kdash201
