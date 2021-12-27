@@ -4,9 +4,7 @@ const fs = require('fs');
 const generateReadMe = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
-const questions = () => {
-    return inquirer.prompt([
-        {
+const questions = [{
             type: "input",
             name: "title",
             message: "Enter the title of your project (Required)",
@@ -107,8 +105,7 @@ const questions = () => {
                 }
             },
         },
-    ]);
-};
+    ];
 
 
 
@@ -121,7 +118,7 @@ function init() {
             console.log(newReadMe)
 
             // TODO: Create a function to write README file
-            fs.writeFile(".utils\readMe.md", newReadMe, (err) => {
+            fs.writeFile("./utils/readMe.md", newReadMe, (err) => {
                 if (err) throw (err);
                 console.log('ReadMe file generated!')
             })

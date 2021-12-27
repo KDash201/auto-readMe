@@ -24,7 +24,7 @@ function generateMarkdown(answers) {
 
 ## Description
 
-*${answer.description}
+* ${answers.description}
 
 ## Table of Contents
 
@@ -34,7 +34,7 @@ function generateMarkdown(answers) {
 * [License Info](#LicenseInfo)
 
 ## Installation
-* ${answer.install}
+* ${answers.install}
 
 ## Usage
 * ${answers.usage}
