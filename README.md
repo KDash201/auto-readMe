@@ -21,7 +21,7 @@
 * Adam Howard https://github.com/Ahoward21
 
 ## Screenshot
-![picture of auto readme app](assets\images\Auto-ReadMe.png)
+![picture of auto readme app](./images/Auto-ReadMe.png)
 
 ## Demo
 
